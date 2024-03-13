@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      Komol ko'ti boq
+      <b className='text-3xl font-bold underline'>Azamat ko'ti bo'q</b>
     </>
   )
 }
