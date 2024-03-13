@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      Azamat
+      Komol ko'ti boq
     </>
   )
 }
