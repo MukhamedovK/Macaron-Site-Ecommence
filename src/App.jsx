@@ -1,11 +1,21 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
+import Home from './Pages/Home'
+import Basket from './Pages/Basket'
+import ChooseImg from './Pages/ChooseImg'
 
 function App() {
 
   return (
     <>
-      <b className='text-3xl font-bold underline'>Azamat ko'ti bo'q</b>
-      <b className='text-[50px] font-bold underline'>Yaxyo ko'ti bo'q</b>
+      <Router>
+            <Switch>
+                <Route exact path="/" component={<Home />} />
+                <Route path="/basket" component={<Basket />} />
+                <Route path="/chooseimg" component={<ChooseImg />} />
+                <Route component={NotFound} />
+            </Switch>
+        </Router>
     </>
   )
 }
