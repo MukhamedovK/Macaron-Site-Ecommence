@@ -1,10 +1,12 @@
 import './App.css'
-import Footer from './Pages/Components/Footer'
+import Footer from './layout/Footer'
+
 function App() {
 
   return (
     <>
       <Footer />
+
     </>
   )
 }
