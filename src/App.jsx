@@ -1,11 +1,11 @@
 import Footer from './Components/Footer'
-import Delivery from './Pages/Delivery'
-import Footer from './layout/Footer'
+import Header from './Components/Header'
 
 function App() {
 
   return (
     <>
+      <Header />
       <Footer />
     </>
   )
