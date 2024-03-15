@@ -1,4 +1,5 @@
-import './App.css'
+import Footer from './Components/Footer'
+import Delivery from './Pages/Delivery'
 import Footer from './layout/Footer'
 
 function App() {
@@ -6,7 +7,6 @@ function App() {
   return (
     <>
       <Footer />
-
     </>
   )
 }
