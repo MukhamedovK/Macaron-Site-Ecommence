@@ -48,6 +48,16 @@ const Delivery = () => {
           </div>
         </div>
       </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63877.579563231884!2d30.43530608155774!3d59.9790181203503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963239d71977d5%3A0xe425f7af1f8f4a4e!2z0JHQpiAi0KHQvtCy0LAiLCDRg9C7LiDQnNCw0YDRiNCw0LvQsCBU0YPRhdCw0YfQtdCy0YHQutC-0LPQviwgMjIsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5NTA2Nw!5e0!3m2!1sru!2s!4v1710552342909!5m2!1sru!2s"
+          width="100%"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
   )
 }
