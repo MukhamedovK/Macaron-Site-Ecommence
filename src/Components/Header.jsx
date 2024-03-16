@@ -16,7 +16,7 @@ const Header = () => {
           
           <div className="flex items-center gap-[30px]">
             <div className="flex items-center">
-            <img src="public/images/Vector (2).png" alt="" />
+            <img src="public/images/nav-img/Vector (2).png" alt="" />
             <select name="" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
               <option className="border-none  text-center" value="Санкт-Петербург">Санкт-Петербург</option>
               <option value="Samarqand">Санкт-Петербург</option>
@@ -24,27 +24,27 @@ const Header = () => {
             </select>
             </div>
             <div className="flex items-center gap-2">
-              <img src="public/images/Group 6.png" alt="" />
+              <img src="public/images/nav-img/Group 6.png" alt="" />
               <p>8 812 309-82-88</p>
             </div>
             <div className="flex items-center gap-2">
-              <img src="public/images/Group 3.png" alt="" />
+              <img src="public/images/nav-img/Group 3.png" alt="" />
               <p>В корзине (4 товара)</p>
               </div>
             <div className="flex gap-[10px]">
-              <img src="public/images/tg.png" alt="" />
-              <img src="public/images/vk.png" alt="" />
-              <img src="public/images/ok.png" alt="" />
+              <img src="public/images/nav-img/tg.png" alt="" />
+              <img src="public/images/nav-img/vk.png" alt="" />
+              <img src="public/images/nav-img/ok.png" alt="" />
             </div>
           </div>
             </div>
         </navbar>
-        <navbar className='flex mx-auto mt-[18px]'>
+        <navbar className='flex mx-auto mt-[18px] mb-[17px]'>
             <div className="flex items-center  mx-auto gap-[30px]">
               <ul className="flex gap-[30px]">
                 <li className="flex gap-1">
                   <p>СЛАДКИЕ ДНИ</p>
-                  <img src="public/images/Group 32.png" alt="" />
+                  <img src="public/images/nav-img/Group 32.png" alt="" />
                   </li>
                 <li>
                   <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
@@ -57,7 +57,7 @@ const Header = () => {
                    <p>СОБРАТЬ НАБОР</p>
                 </li>
               </ul>
-              <img src="public/images/лого.png" alt="" />
+              <img src="public/images/nav-img/лого.png" alt="" />
               <ul className="flex gap-[30px]">
                 <li><p>СОЗДАТЬ ДИЗАЙН</p></li>
                 <li>
