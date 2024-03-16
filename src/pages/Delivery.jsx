@@ -6,7 +6,7 @@ const Delivery = () => {
       <section className='container bg-[#F7F7F7] h-screen'>
         <div className="flex flex-1 gap-[102px]">
           <div className="mb-[42px] ml-[157px]">
-            <img src="public/images/delivery-img/Group.png" alt="" className='max-w-[500px] max-h-[277.61px] mt-[280px]' />
+            <img src="/delivery-img/Group.png" alt="" className='max-w-[500px] max-h-[277.61px] mt-[280px]' />
           </div>
           <div className="flex flex-col mt-[105px]">
             <h1 className='font-semibold text-[42px]'>Доставка и оплата</h1>

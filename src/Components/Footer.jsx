@@ -7,15 +7,15 @@ const Footer = () => {
         <div className="flex flex-col mt-[58px]">
           <div className="flex gap-[40px]">
             <div className="flex flex-col items-center">
-              <img src="public/images/footer-img/Frame.png" alt="" className='w-[44.85px] h-[39px]' />
+              <img src="/footer-img/Frame.png" alt="" className='w-[44.85px] h-[39px]' />
               <p className='text-[12px] mt-[14px] text-center flex'>Готовим вручную <br /> и с любовью</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="public/images/footer-img/Group 18.png" alt="" className='w-[49.66px] h-[34.35px]' />
+              <img src="/footer-img/Group 18.png" alt="" className='w-[49.66px] h-[34.35px]' />
               <p className='text-[12px] mt-[16.65px] flex text-center'>Доставим<br /> в день заказа</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="public/images/footer-img/Vector.png" alt="" className='w-[28.46px] h-[37px]' />
+              <img src="/footer-img/Vector.png" alt="" className='w-[28.46px] h-[37px]' />
               <p className='text-[12px] mt-[15px] flex text-center'>100% <br /> миндальная мука<br /> и натуральные <br /> ингредиенты</p>
             </div>
           </div>
@@ -64,13 +64,13 @@ const Footer = () => {
             <ul>
               <li className='flex gap-[18px] mt-[70px]'>
                 <a href="https://www.instagram.com/">
-                  <img src="public/images/footer-img/Group 27.png" alt="" className='max-w-[40px] max-h-[40px]' />
+                  <img src="/footer-img/Group 27.png" alt="" className='max-w-[40px] max-h-[40px]' />
                 </a>
                 <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjXjMHXgvaEAxUUZpEFHS5zBJsYABAAGgJscg&ase=2&gclid=CjwKCAjw48-vBhBbEiwAzqrZVJcGrmVo4IptDpzwcN3dOXYxUQL0_Z_A8VcHVTTszkq2w6DIxKGt1RoCLE4QAvD_BwE&ohost=www.google.com&cid=CAESVuD2xFzliR8WZD1gkCibd-3nD40ai_4h1GlCZpuRAbrHIgaI773KykgLRPh7KbwbEEC8AwpYW9tS7_ozH32qUPSa_1IQQBn2XeuBPpEiA4LOrqftr0RF&sig=AOD64_0zsCVQfma2Muhp-LHWZHxv4O4bXg&q&nis=4&adurl&ved=2ahUKEwjgybvXgvaEAxX-FBAIHfrEAVMQ0Qx6BAgGEAE">
-                  <img src="public/images/footer-img/Group 28.png" alt="" className='max-w-[40px] max-h-[40px]' />
+                  <img src="/footer-img/Group 28.png" alt="" className='max-w-[40px] max-h-[40px]' />
                 </a>
                 <a href="https://m.vk.com/">
-                  <img src="public/images/footer-img/Group 29.png" alt="" className='max-w-[40px] max-h-[40px]' />
+                  <img src="/footer-img/Group 29.png" alt="" className='max-w-[40px] max-h-[40px]' />
                 </a>
               </li>
             </ul>
