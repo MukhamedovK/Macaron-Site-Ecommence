@@ -1,7 +1,7 @@
 
-import Footer from './Components/Footer'
-import Header from './Components/Header'
-import Delivery from './Pages/Delivery'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Delivery from './pages/Delivery'
 
 
 function App() {
