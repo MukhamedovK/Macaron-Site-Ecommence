@@ -2,7 +2,8 @@ import React from 'react'
 
 const Delivery = () => {
   return (
-    <main>
+    <>
+      <main>
       <section className='container bg-[#F7F7F7] h-screen'>
         <div className="flex flex-1 gap-[102px]">
           <div className="mb-[42px] ml-[157px]">
@@ -59,7 +60,17 @@ const Delivery = () => {
         ></iframe>
       </section>
     </main>
+    </>
   )
 }
 
+
 export default Delivery
+
+
+
+
+
+
+
+
