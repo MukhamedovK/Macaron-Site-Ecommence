@@ -8,7 +8,10 @@ const Header = () => {
           
             <div className="flex w-[85%] mx-auto container justify-between">
             <ul className="flex gap-[14px]">
-              <li className="hover:text-gray-500">Гарантия свежести</li>
+              <li className=" relative">
+                <p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p>
+                <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
+              </li>
               <li className="hover:text-gray-500">Доставка и оплата</li>
               <li className="hover:text-gray-500">Оптовые поставки</li>
               <li className="hover:text-gray-500">Контакты</li>
@@ -47,7 +50,7 @@ const Header = () => {
                   <img src="/nav-img/Group 32.png" alt="" />
                   </li>
                 <li>
-                  <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
+                  <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
