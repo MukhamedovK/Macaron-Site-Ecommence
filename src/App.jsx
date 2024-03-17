@@ -1,5 +1,6 @@
-import Footer from './Pages/Components/Footer'
-import Delivery from './Pages/Delivery'
+
+import Footer from './pages/Components/Footer.jsx'
+import Delivery from './pages/Delivery'
 
 function App() {
 

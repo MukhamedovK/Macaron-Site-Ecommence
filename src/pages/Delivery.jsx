@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react'
 
+const Delivery = () => {
   return (
-    <main>
+    <>
+      <main>
       <section className='container bg-[#F7F7F7] h-screen'>
         <div className="flex flex-1 gap-[102px]">
           <div className="mb-[42px] ml-[157px]">
@@ -48,7 +50,12 @@ import React, { useEffect } from 'react';
         </div>
       </section>
     </main>
+    </>
   )
+}
+
+export default Delivery
 
 
-export default Delivery;
+
+
