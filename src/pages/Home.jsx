@@ -7,7 +7,7 @@ const Home = () => {
         <section className='container h-screen'>
           <div className="flex flex-1 items-center justify-center gap-[145px]">
             <div className="mt-[40px]">
-              <img src="public/home-img/Слой 0 1.png" alt="" />
+              <img src="/home-img/Слой 0 1.png" alt="" />
             </div>
             <div className="text-center">
               <p className='text-[22px] font-semibold'>Macaronshop</p>
