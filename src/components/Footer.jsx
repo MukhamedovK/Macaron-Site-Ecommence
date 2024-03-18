@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -25,31 +26,31 @@ const Footer = () => {
             <div className="flex gap-[60px] mt-[58px]">
               <ul className='flex'>
                 <li className='flex flex-col'>
-                  <a href="#" className='font-semibold'>Информация</a>
-                  <a href="#" className='text-[14px] mt-[18px]'>О компании</a>
-                  <a href="#" className='text-[14px] mt-[15px]'>Гарантии вкуса и  свежести</a>
-                  <a href="#" className='text-[14px] mt-[15px]'>Доставка и оплата</a>
-                  <a href="#" className='text-[14px] mt-[15px]'>Доставка и оплата</a>
+                  <p className='font-semibold'>Информация</p>
+                  <p className='text-[14px] mt-[18px]'>О компании</p>
+                  <Link to="/guarantees"><p className='text-[14px] mt-[15px]'>Гарантии вкуса и  свежести</p></Link>
+                  <Link to="/delivery"><p className='text-[14px] mt-[15px]'>Доставка и оплата</p></Link>
+                  <Link to="/contacts"><p className='text-[14px] mt-[15px]'>Контакты</p></Link>
                 </li>
               </ul>
     
     
               <ul>
                 <li className='flex flex-col gap-[15px]'>
-                  <a href="#" className='font-semibold'>Каталог</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Каталог десертов</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Готовые наборы</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Собрать свой набор</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Акции</a>
+                  <p className='font-semibold'>Каталог</p>
+                  <p className='text-[14px] leading-[17px] '>Каталог десертов</p>
+                  <p className='text-[14px] leading-[17px] '>Готовые наборы</p>
+                  <p className='text-[14px] leading-[17px] '>Собрать свой набор</p>
+                  <p className='text-[14px] leading-[17px] '>Акции</p>
                 </li>
               </ul>
     
               <ul>
                 <li className='flex flex-col gap-[15px]'>
-                  <a href="#" className='font-semibold'>ДЛЯ БИЗНЕСА</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Корпоративные подарки</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Для юридических лиц</a>
-                  <a href="#" className='text-[14px] leading-[17px] '>Оповикам</a>
+                  <p className='font-semibold'>ДЛЯ БИЗНЕСА</p>
+                  <p className='text-[14px] leading-[17px] '>Корпоративные подарки</p>
+                  <p className='text-[14px] leading-[17px] '>Для юридических лиц</p>
+                  <p className='text-[14px] leading-[17px] '>Оповикам</p>
                 </li>
               </ul>
     
@@ -63,15 +64,9 @@ const Footer = () => {
               <div>
                 <ul>
                   <li className='flex gap-[18px] mt-[70px]'>
-                    <a href="https://www.instagram.com/">
-                      <img src="/footer-img/Group 27.png" alt="" className='max-w-[40px] max-h-[40px]' />
-                    </a>
-                    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjXjMHXgvaEAxUUZpEFHS5zBJsYABAAGgJscg&ase=2&gclid=CjwKCAjw48-vBhBbEiwAzqrZVJcGrmVo4IptDpzwcN3dOXYxUQL0_Z_A8VcHVTTszkq2w6DIxKGt1RoCLE4QAvD_BwE&ohost=www.google.com&cid=CAESVuD2xFzliR8WZD1gkCibd-3nD40ai_4h1GlCZpuRAbrHIgaI773KykgLRPh7KbwbEEC8AwpYW9tS7_ozH32qUPSa_1IQQBn2XeuBPpEiA4LOrqftr0RF&sig=AOD64_0zsCVQfma2Muhp-LHWZHxv4O4bXg&q&nis=4&adurl&ved=2ahUKEwjgybvXgvaEAxX-FBAIHfrEAVMQ0Qx6BAgGEAE">
-                      <img src="/footer-img/Group 28.png" alt="" className='max-w-[40px] max-h-[40px]' />
-                    </a>
-                    <a href="https://m.vk.com/">
-                      <img src="/footer-img/Group 29.png" alt="" className='max-w-[40px] max-h-[40px]' />
-                    </a>
+                    <Link><img src="/footer-img/Group 27.png" alt="" className='max-w-[40px] max-h-[40px]' /></Link>
+                    <Link><img src="/footer-img/Group 28.png" alt="" className='max-w-[40px] max-h-[40px]' /></Link>
+                    <Link><img src="/footer-img/Group 29.png" alt="" className='max-w-[40px] max-h-[40px]' /></Link>
                   </li>
                 </ul>
               </div>
