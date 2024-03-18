@@ -5,7 +5,6 @@ import Delivery from './pages/Delivery'
 import Home from './pages/Home'
 import QualityGuarantees from './pages/QualityGuarantees'
 
-
 function App() {
 
   return (
