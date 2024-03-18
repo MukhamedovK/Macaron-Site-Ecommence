@@ -5,6 +5,9 @@ const Header = () => {
     <div>
       <nav className="w-full">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 19f2abc9207de7c7de9b144654c88a7777d4566a
         <navbar className="bg-[#F7EBE5] h-[48px] flex items-center ">
           
             <div className="flex w-[85%] mx-auto container justify-between">
@@ -13,43 +16,50 @@ const Header = () => {
                 <p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p>
                 <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
               </li>
+<<<<<<< HEAD
 =======
         <navbar className="bg-[#F7EBE5] h-[48px] flex items-center">
           <div className="flex w-full lg:w-[85%] mx-auto container justify-between">
             <ul className="flex flex-wrap gap-[14px] lg:gap-[30px]">
               <li className="hover:text-gray-500">Гарантия свежести</li>
 >>>>>>> yahyo
+=======
+>>>>>>> 19f2abc9207de7c7de9b144654c88a7777d4566a
               <li className="hover:text-gray-500">Доставка и оплата</li>
               <li className="hover:text-gray-500">Оптовые поставки</li>
               <li className="hover:text-gray-500">Контакты</li>
             </ul>
-            <div className="flex items-center gap-[10px] lg:gap-[30px]">
-              <div className="flex items-center">
-                <img src="/nav-img/Vector (2).png" alt="" />
-                <select name="" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
-                  <option className="border-none  text-center" value="Санкт-Петербург">Санкт-Петербург</option>
-                  <option value="Samarqand">Санкт-Петербург</option>
-                  <option value="Buxoro">Санкт-Петербург</option>
-                </select>
+          
+          <div className="flex items-center gap-[30px]">
+            <div className="flex items-center">
+            <img src="/nav-img/Vector (2).png" alt="" />
+            <select name="" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
+              <option className="border-none  text-center" value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Samarqand">Санкт-Петербург</option>
+              <option value="Buxoro">Санкт-Петербург</option>
+            </select>
+            </div>
+            <div className="flex items-center gap-2">
+              <img src="/nav-img/Group 6.png" alt="" />
+              <p>8 812 309-82-88</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <img src="/nav-img/Group 3.png" alt="" />
+              <p>В корзине (4 товара)</p>
               </div>
-              <div className="flex items-center gap-2">
-                <img src="/nav-img/Group 6.png" alt="" />
-                <p>8 812 309-82-88</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <img src="/nav-img/Group 3.png" alt="" />
-                <p>В корзине (4 товара)</p>
-              </div>
-              <div className="flex gap-[10px]">
-                <img src="/nav-img/tg.png" alt="" />
-                <img src="/nav-img/vk.png" alt="" />
-                <img src="/nav-img/ok.png" alt="" />
-              </div>
+            <div className="flex gap-[10px]">
+              <img src="/nav-img/tg.png" alt="" />
+              <img src="/nav-img/vk.png" alt="" />
+              <img src="/nav-img/ok.png" alt="" />
             </div>
           </div>
+            </div>
         </navbar>
         <navbar className='flex mx-auto mt-[18px] mb-[17px]'>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 19f2abc9207de7c7de9b144654c88a7777d4566a
             <div className="flex items-center  mx-auto gap-[30px]">
               <ul className="flex gap-[30px]">
                 <li className="flex gap-1">
@@ -58,6 +68,7 @@ const Header = () => {
                   </li>
                 <li>
                   <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
+<<<<<<< HEAD
 =======
           <div className="flex items-center w-full lg:w-[85%] mx-auto gap-[10px] lg:gap-[30px]">
             <ul className="flex flex-wrap gap-[10px] lg:gap-[30px]">
@@ -68,34 +79,38 @@ const Header = () => {
               <li>
                 <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
 >>>>>>> yahyo
+=======
+>>>>>>> 19f2abc9207de7c7de9b144654c88a7777d4566a
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
-                </select>
-              </li>
-              <li>
-                <p>СОБРАТЬ НАБОР</p>
-              </li>
-            </ul>
-            <img src="/nav-img/лого.png" alt="" />
-            <ul className="flex flex-wrap gap-[10px] lg:gap-[30px]">
-              <li><p>СОЗДАТЬ ДИЗАЙН</p></li>
-              <li>
-                <select name="КОМПАНИЯМ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
+                  </select>
+                </li>
+                <li>
+                   <p>СОБРАТЬ НАБОР</p>
+                </li>
+              </ul>
+              <img src="/nav-img/лого.png" alt="" />
+              <ul className="flex gap-[30px]">
+                <li><p>СОЗДАТЬ ДИЗАЙН</p></li>
+                <li>
+                  <select name="КОМПАНИЯМ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
                   <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
                   <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
                   <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
-                </select>
-              </li>
-              <li>
+                  </select>
+                </li>
+                <li>
                 <select name="ВЕСЬ КАТАЛОГ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
                   <option value="ВЕСЬ КАТАЛОГ">ВЕСЬ КАТАЛОГ</option>
                   <option value="ВЕСЬ КАТАЛОГ">ВЕСЬ КАТАЛОГ</option>
                   <option value="ВЕСЬ КАТАЛОГ">ВЕСЬ КАТАЛОГ</option>
-                </select>
-              </li>
-            </ul>
-          </div>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            
+            
         </navbar>
       </nav>
     </div>
