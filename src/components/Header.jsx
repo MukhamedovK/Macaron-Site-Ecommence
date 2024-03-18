@@ -9,21 +9,13 @@ const Header = () => {
 
           <div className="flex w-[85%] mx-auto container justify-between">
             <ul className="flex gap-[14px]">
-              <Link to="/guarantees">
-                <li className=" relative">
-                  <p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p>
-                  <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
-                </li>
-              </Link>
-              <Link to="/delivery">
-                <li className="hover:text-gray-500">Доставка и оплата</li>
-              </Link>
-              <Link to="/delivery">
-                <li className="hover:text-gray-500">Оптовые поставки</li>
-              </Link>
-              <Link to="/contacts">
-                <li className="hover:text-gray-500">Контакты</li>
-              </Link>
+              <li className=" relative">
+                <Link to="/guarantees"><p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p></Link>
+                <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
+              </li>
+              <Link to="/delivery"><li className="hover:text-gray-500">Доставка и оплата</li></Link>
+              <li className="hover:text-gray-500">Оптовые поставки</li>
+              <Link to="/contacts"><li className="hover:text-gray-500">Контакты</li></Link>
             </ul>
 
             <div className="flex items-center gap-[30px]">
@@ -52,14 +44,14 @@ const Header = () => {
           </div>
         </navbar>
         <navbar className='flex mx-auto mt-[18px] mb-[17px]'>
-          <div className="flex items-center  mx-auto gap-[30px]">
-            <ul className="flex gap-[30px]">
-              <li className="flex gap-1">
-                <p>СЛАДКИЕ ДНИ</p>
-                <img src="/nav-img/Group 32.png" alt="" />
-              </li>
-              <li>
-                <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
+            <div className="flex items-center  mx-auto gap-[30px]">
+              <ul className="flex gap-[30px]">
+                <li className="flex gap-1">
+                  <p>СЛАДКИЕ ДНИ</p>
+                  <img src="/nav-img/Group 32.png" alt="" />
+                  </li>
+                <li>
+                  <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
