@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const PopularSets = () => {
     let care = [
@@ -31,6 +32,7 @@ const PopularSets = () => {
                     </div>
                 ))}
             </div>
+            <Link to="/ReadySets"><button className='mt-[35px] px-[48px] py-[18px] border border-[#4E9DD3] text-sm font-semibold hover:text-white hover:bg-[#4E9DD3] transition-all'>Все праздничные наборы</button></Link>
         </div>
     );
 };

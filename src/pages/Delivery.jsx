@@ -44,8 +44,8 @@ const Delivery = () => {
               <p className='mt-[10px]'>Если у Вас нет карты российского банка, мы можем принять<br /> оплату через платёжную систему PayPal.</p>
             </p>
           </div>
-          <div className="flex items-center justify-center">
-            <div id="map" style={{ width: '400px', height: '400px' }}></div>
+          <div className="flex items-center">
+            <img src="public/delivery-img/Group 44 (1).png" className=' w-[256px] h-[343px]' alt="" />
           </div>
         </div>
       </section>
