@@ -5,7 +5,12 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Delivery from './pages/Delivery'
 import QualityGuarantees from './pages/QualityGuarantees'
+
 import LegalEntities from "./pages/LegalEntities";
+
+import SelectQuantityProduct from "./pages/SelectQuantityProduct";
+import Basket from "./pages/Basket";
+
 
 function App() {
 
@@ -19,6 +24,7 @@ function App() {
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/legals" element={<LegalEntities />} />
+          <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
         </Routes>
         <Footer />
       </div>
