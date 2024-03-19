@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex gap-[60px] mt-[58px]">
               <ul className='flex'>
                 <li className='flex flex-col'>
-                  <p className='font-semibold'>Информация</p>
+                  <p className='font-semibold'>ИНФОРМАЦИЯ</p>
                   <p className='text-[14px] mt-[18px]'>О компании</p>
                   <Link to="/guarantees"><p className='text-[14px] mt-[15px]'>Гарантии вкуса и  свежести</p></Link>
                   <Link to="/delivery"><p className='text-[14px] mt-[15px]'>Доставка и оплата</p></Link>
@@ -37,7 +37,7 @@ const Footer = () => {
     
               <ul>
                 <li className='flex flex-col gap-[15px]'>
-                  <p className='font-semibold'>Каталог</p>
+                  <p className='font-semibold'>КАТАЛОГ</p>
                   <p className='text-[14px] leading-[17px] '>Каталог десертов</p>
                   <p className='text-[14px] leading-[17px] '>Готовые наборы</p>
                   <p className='text-[14px] leading-[17px] '>Собрать свой набор</p>
