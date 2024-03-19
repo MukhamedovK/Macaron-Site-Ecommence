@@ -28,8 +28,8 @@ const Header = () => {
                 <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
               </li>
               <Link to="/delivery"><li className="hover:text-gray-500">Доставка и оплата</li></Link>
-              <li className="hover:text-gray-500">Оптовые поставки</li>
-              <Link to="/contacts"><li className="hover:text-gray-500">Контакты</li></Link>
+              <Link to="/legals"><li className="hover:text-gray-500">Оптовые поставки</li></Link>
+              <Link to="/contacts"><li className="hover:text-gray-500 hover:underline transition duration-300">Контакты</li></Link>
             </ul>
 
             <div className="flex items-center gap-[30px]">
@@ -81,10 +81,10 @@ const Header = () => {
             <ul className="flex gap-[30px]">
               <li><p>СОЗДАТЬ ДИЗАЙН</p></li>
               <li>
-                <select name="КОМПАНИЯМ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">
-                  <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
-                  <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
-                  <option value="КОМПАНИЯМ">КОМПАНИЯМ</option>
+                <select name="КОМПАНИЯМ" id="" className="bg-transparent cursor-pointer border-none outline-none flex items-center">лщ
+                  <option value="КОМПАНИЯМ"><Link to="/legals">ОПТОВЫЕ ПОСТАВКИ</Link></option>
+                  <option value="КОМПАНИЯМ">КОРПОРАТИВНЫЕ ПОДАРКИ</option>
+                  <option value="КОМПАНИЯМ">ЭКЛЕРЫ ОПТОМ</option>
                 </select>
               </li>
               <li>

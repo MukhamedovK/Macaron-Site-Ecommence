@@ -8,7 +8,6 @@ import QualityGuarantees from './pages/QualityGuarantees'
 import ReadySets from "./pages/ReadySets";
 import Swiper from "./components/Swiper";
 import DesertCatalog from "./pages/DesertCatalog";
-
 function App() {
 
   return (
@@ -21,6 +20,7 @@ function App() {
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/ReadySets" element={<ReadySets />} />
+          <Route path="/legals" element={<LegalEntities />} />
         </Routes>
         <Footer />
       </div>
