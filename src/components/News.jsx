@@ -26,7 +26,7 @@ const News = () => {
         <p className='text-sm text-gray-600 ml-5 mt-[10px]'>Подарок уже через 2 дняДень всех влюблённых<br /> не за горами. Расскажи о своих чувствах с<br /> помощью сладкой валентинки от МакаронШоп</p>
       </div>     
       </div>
-      <button className='mt-[35px] px-[48px] py-[18px] border border-[#4E9DD3] text-sm font-semibold'>Все новости</button>
+      <button className='mt-[35px] px-[48px] py-[18px] border border-[#4E9DD3] text-sm font-semibold hover:text-white hover:bg-[#4E9DD3] transition-all'>Все новости</button>
     </div>
   )
 }
