@@ -6,24 +6,25 @@ import Contact from './pages/Contact'
 import Delivery from './pages/Delivery'
 import QualityGuarantees from './pages/QualityGuarantees'
 import ReadySets from "./pages/ReadySets";
-import Swiper from "./components/Swiper";
-import DesertCatalog from "./pages/DesertCatalog";
+import LegalEntities from "./pages/LegalEntities";
+import SelectQuantityProduct from "./pages/SelectQuantityProduct";
+
 function App() {
 
   return (
     <>
-      <div>
         <Header />
-        <Home/>
+        
         <Routes>
+        <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/ReadySets" element={<ReadySets />} />
           <Route path="/legals" element={<LegalEntities />} />
+          <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
         </Routes>
         <Footer />
-      </div>
     </>
   )
 }
