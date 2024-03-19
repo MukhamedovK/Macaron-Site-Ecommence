@@ -7,7 +7,7 @@ const Home = () => {
         <section className='container'>
           <div className="flex flex-1 items-center justify-center gap-[145px]">
             <div className="mt-[40px]">
-              <img src="public/home-img/Слой 0 1.png" alt="" />
+              <img src="/home-img/Слой 0 1.png" alt="" />
             </div>
             <div className="text-center">
               <p className='text-[22px] font-semibold'>Macaronshop</p>
@@ -105,67 +105,113 @@ const Home = () => {
         <section className='container'>
           <div className="flex flex-col mt-[112px] text-center">
             <p className='font-semibold text-[30px] mb-[42px]'>Популярные наборы</p>
-            <div className="flex flex-wrap gap-[30px] items-start justify-center">
+            <div className="flex flex-wrap gap-[30px] items-start justify-center  mb-[35px]">
+
             <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
               <img src="public/home-img/popular-sets-img/Rectangle 172 (4).png" alt="Heart Image" class="w-full h-auto" />
-              <div class="p-6 flex flex-col justify-between">
-                <div>
-                  <h2 class="text-2xl font-bold text-gray-800 mb-2">Сердце</h2>
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Сердце</h2>
                   <p class="text-sm text-gray-600 mb-4">24 штуки в коробке в виде сердца.<br />Ассорти из 6 вкусов</p>
                 </div>
-              <div class="flex items-center justify-between">
-                <p class="text-[#E7426A] text-lg font-semibold">$2990</p>
-                <button class="px-4 py-2 bg-[#E7426A] text-white text-sm font-semibold rounded-md hover:bg-[#C72E58] focus:outline-none focus:bg-[#C72E58]">В корзину</button>                   
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">2800 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div>                   
+                </div>
               </div>
             </div>
-          </div>
 
+            <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
+              <img src="public/home-img/popular-sets-img/Rectangle 174.png" alt="Heart Image" class="w-full h-auto" />
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Красота спасёт мир </h2>
+                  <p class="text-sm text-gray-600 mb-4">Набор 16 шт. Вкусы: клубника - базилик, кокос,<br /> голубой сыр, пармезан</p>
+                </div>
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">750 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div>              
+                </div>
+              </div>
+            </div>
 
-            <div className="">
-              <img src="public/home-img/popular-sets-img/Rectangle 174.png" alt="" />
-              <p></p>
-              <p></p>
-              <div className="flex flex-1 gap-[95px] items-center justify-center">
-                <p className='text-[#E7426A] text-[18px] font-semibold'>$2990</p>
-                <ul><li><a href="#">В корзину</a></li> </ul>   
+            <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
+              <img src="public/home-img/popular-sets-img/Rectangle 176.png" alt="Heart Image" class="w-full h-auto" />
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Круглый набор</h2>
+                  <p class="text-sm text-gray-600 mb-4">40 макаронс в круглой коробке с персональной<br /> надписью</p>
+                </div>
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">3900 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div>       
+                </div>
               </div>
             </div>
-            <div className="">
-              <img src="public/home-img/popular-sets-img/Rectangle 176.png" alt="" />
-              <p></p>
-              <p></p>
-              <div className="flex flex-1 gap-[95px] items-center justify-center">
-                <p className='text-[#E7426A] text-[18px] font-semibold'>$2990</p>
-                <ul><li><a href="#">В корзину</a></li> </ul>   
+
+            <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
+              <img src="public/home-img/popular-sets-img/Rectangle 282.png" alt="Heart Image" class="w-full h-auto" />
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Набор на 9</h2>
+                  <p class="text-sm text-gray-600 mb-4">Набор из 9 штук в квадратной коробке. Вкусы: <br /> шоколад, фисташка, вишня</p>
+                </div>
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">950 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div> 
+                </div>
               </div>
             </div>
-            <div className="">
-              <img src="public/home-img/popular-sets-img/Rectangle 282.png" alt="" />
-              <p></p>
-              <p></p>
-              <div className="flex flex-1 gap-[95px] items-center justify-center">
-                <p className='text-[#E7426A] text-[18px] font-semibold'>$2990</p>
-                <ul><li><a href="#">В корзину</a></li> </ul>                  
+
+            <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
+              <img src="public/home-img/popular-sets-img/Rectangle 283.png" alt="Heart Image" class="w-full h-auto" />
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Набор на 16</h2>
+                  <p class="text-sm text-gray-600 mb-4">Набор 16 шт. Вкусы: соленая карамель, голубой<br /> сыр, пармезан, шоколад </p>
+                </div>
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">1500 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div> 
+                </div>
               </div>
             </div>
-            <div className="">
-              <img src="public/home-img/popular-sets-img/Rectangle 283.png" alt="" />
-              <p></p>
-              <p></p>
-              <div className="flex flex-1 gap-[95px] items-center justify-center">
-                <p className='text-[#E7426A] text-[18px] font-semibold'>$2990</p>
-                <ul><li><a href="#">В корзину</a></li> </ul>   
+
+            <div class="w-[370px] h-[460px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col">
+              <img src="public/home-img/popular-sets-img/Rectangle 172 (4).png" alt="Heart Image" class="w-full h-auto" />
+              <div class="p-5 flex flex-col justify-between">
+                <div className='text-start'>
+                  <h2 class="text-lg font-bold text-gray-800 mb-2">Сердце</h2>
+                  <p class="text-sm text-gray-600 mb-4">24 штуки в коробке в виде сердца.<br />Ассорти из 6 вкусов</p>
+                </div>
+                <div class="flex items-center justify-between border-[#EDEDF0] border-t">
+                <p class="text-[#E7426A] text-lg font-semibold">2500 руб</p>
+                <div className="flex gap-3">
+                  <img src="public/home-img/popular-sets-img/Group 3.png" alt="" />
+                   <button class="text-sm font-semibold">В корзину</button>
+                </div> 
+                </div>
               </div>
             </div>
-            <div className="">
-              <img src="public/home-img/popular-sets-img/Rectangle 176.png" alt="" />
-              <p></p>
-              <p></p>
-              <div className="flex flex-1 gap-[95px] items-center justify-center">
-                <p className='text-[#E7426A] text-[18px] font-semibold'>$2990</p>
-                <ul><li><a href="#">В корзину</a></li> </ul>               
-              </div>
+
             </div>
+            <div className="justify-center items-center flex">
+            <button className='bg-inherit border border-[#4E9DD3] py-4 px-12 text-sm font-semibold text-center'>Все праздничные наборы</button>
             </div>
           </div>
         </section>

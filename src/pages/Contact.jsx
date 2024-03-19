@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="lg:mt-[50px]">
         <img 
           className='h-[434px] lg:h-auto'
-          src="public/contacts-img/Group 207.png" 
+          src="/contacts-img/Group 207.png" 
           alt="" />
       </div>
       <div className="lg:mt-[110px] text-[#292929]">
