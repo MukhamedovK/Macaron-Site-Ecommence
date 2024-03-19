@@ -43,7 +43,7 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-2">
                 <img src="/nav-img/Group 3.png" alt="" />
-                <p>В корзине (4 товара)</p>
+                <Link to="/basket"><p>В корзине (4 товара)</p></Link>
               </div>
               <div className="flex gap-[10px]">
                 <img src="/nav-img/tg.png" alt="" />
