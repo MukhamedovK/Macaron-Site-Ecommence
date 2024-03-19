@@ -24,6 +24,13 @@ const Header = () => {
               <Link to="/contacts">
                 <li className="hover:text-gray-500">Контакты</li>
               </Link>
+              <li className=" relative">
+                <Link to="/guarantees"><p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p></Link>
+                <div class="absolute bottom-0 left-0 w-full h-[2px] bg-red-500 transition duration-300 transform scale-x-0 hover:scale-x-100 origin-left"></div>
+              </li>
+              <Link to="/delivery"><li className="hover:text-gray-500">Доставка и оплата</li></Link>
+              <li className="hover:text-gray-500">Оптовые поставки</li>
+              <Link to="/contacts"><li className="hover:text-gray-500">Контакты</li></Link>
             </ul>
 
             <div className="flex items-center gap-[30px]">
