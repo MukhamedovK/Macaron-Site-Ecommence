@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import Delivery from './pages/Delivery'
 import QualityGuarantees from './pages/QualityGuarantees'
 import SelectQuantityProduct from "./pages/SelectQuantityProduct";
+import Basket from "./pages/Basket";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
+          <Route path="/basket" element={<Basket />} />
         </Routes>
         <Footer />
       </div>
