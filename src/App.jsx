@@ -25,6 +25,7 @@ function App() {
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/legals" element={<LegalEntities />} />
           <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
+          <Route path="/basket" element={<Basket />} />
         </Routes>
         <Footer />
       </div>
