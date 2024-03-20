@@ -9,6 +9,8 @@ import QualityGuarantees from './pages/QualityGuarantees'
 import ReadySets from "./pages/ReadySets";
 import LegalEntities from "./pages/LegalEntities";
 import SelectQuantityProduct from "./pages/SelectQuantityProduct";
+import DesertCatalog from "./pages/DesertCatalog";
+import Policy from "./pages/Policy";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
     <>
         <Header />
         <Routes>
+          <Route path="/desertcatalog" element={<DesertCatalog />} />
+          <Route path="/policy" element={<Policy />} />
           <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
