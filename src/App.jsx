@@ -11,6 +11,7 @@ import LegalEntities from "./pages/LegalEntities";
 import SelectQuantityProduct from "./pages/SelectQuantityProduct";
 import DesertCatalog from "./pages/DesertCatalog";
 import Policy from "./pages/Policy";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/notfound" element={<NotFound />} />
           <Route path="/desertcatalog" element={<DesertCatalog />} />
           <Route path="/policy" element={<Policy />} />
           <Route path="/contacts" element={<Contact />} />
