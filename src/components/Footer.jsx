@@ -50,7 +50,7 @@ const Footer = () => {
                   <p className='font-semibold'>ДЛЯ БИЗНЕСА</p>
                   <p className='text-[14px] leading-[17px] '>Корпоративные подарки</p>
                   <p className='text-[14px] leading-[17px] '>Для юридических лиц</p>
-                  <p className='text-[14px] leading-[17px] '>Оповикам</p>
+                  <p className='text-[14px] leading-[17px] '>Оптовикам</p>
                 </li>
               </ul>
     

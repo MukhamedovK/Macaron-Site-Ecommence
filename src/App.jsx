@@ -18,15 +18,16 @@ function App() {
     <>
         <Header />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/desertcatalog" element={<DesertCatalog />} />
           <Route path="/policy" element={<Policy />} />
-          <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
           <Route path="/ReadySets" element={<ReadySets />} />
           <Route path="/legals" element={<LegalEntities />} />
           <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
+          <Route path="/privacy-policy" element={<Policy />} />
           <Route path="/basket" element={<Basket />} />
         </Routes>
         <Footer />

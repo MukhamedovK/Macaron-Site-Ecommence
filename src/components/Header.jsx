@@ -8,7 +8,7 @@ const Header = () => {
         <navbar className="bg-[#F7EBE5] h-[48px] flex ">
 
           <div className="flex w-[85%] mx-auto container justify-between">
-            <ul className="flex gap-[14px]">
+            <ul className="flex gap-[14px] items-center">
               <Link to="/guarantees">
                 <li className=" relative">
                   <p className='hover:text-gray-300 transition duration-300'>Гарантия свежести</p>
@@ -92,8 +92,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-
-
         </navbar>
       </nav>
     </div>
