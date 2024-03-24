@@ -10,6 +10,8 @@ import ReadySets from "./pages/ReadySets";
 import LegalEntities from "./pages/LegalEntities";
 import SelectQuantityProduct from "./pages/SelectQuantityProduct";
 import Policy from "./pages/Policy";
+import DesertCatalog from "./pages/DesertCatalog";
+import ForWedding from "./pages/ForWedding";
 
 function App() {
 
@@ -23,10 +25,11 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/guarantees" element={<QualityGuarantees />} />
-          <Route path="/ReadySets" element={<ReadySets />} />
+          <Route path="/readysets" element={<ReadySets />} />
           <Route path="/legals" element={<LegalEntities />} />
           <Route path="/selectqtyproduct" element={<SelectQuantityProduct />} />
-          <Route path="/privacy-policy" element={<Policy />} />
+          <Route path="/forwedding" element={<ForWedding />} />
+          {/* <Route path="/privacy-policy" element={<Policy />} /> */}
           <Route path="/basket" element={<Basket />} />
         </Routes>
         <Footer />

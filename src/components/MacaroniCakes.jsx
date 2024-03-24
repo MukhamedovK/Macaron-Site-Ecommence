@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MacaroniCakes = () => {
   return (
@@ -12,8 +13,8 @@ const MacaroniCakes = () => {
                   <p className='font-semibold text-[30px] mt-[95px]'>Пирожные макарон</p>
                   <p className='text-lg mt-[17px]'>Самые классные, самые лучшие, свежие, воздушные, <br /> хрустящие макарушки. лучшее, что мы умеем делать.</p>
                 <div className="flex gap-[9px] mt-[43px]">
-                  <button className='border-[#4E9DD3] border bg-inherit hover:bg-[#4E9DD3] hover:text-white w-[230.77px] h-[50px]'>Готовые наборы</button>
-                  <button className='border-[#4E9DD3] border bg-inherit hover:bg-[#4E9DD3] hover:text-white w-[230.77px] h-[50px]'>Собрать свой набор</button>
+                  <Link to="/readysets"><button className='border-[#4E9DD3] border bg-inherit hover:bg-[#4E9DD3] hover:text-white w-[230.77px] h-[50px] transition runded-[3px] active:scale-95'>Готовые наборы</button></Link>
+                  <Link><button className='border-[#4E9DD3] border bg-inherit hover:bg-[#4E9DD3] hover:text-white w-[230.77px] h-[50px] transition rounded-[3px] active:scale-95'>Собрать свой набор</button></Link>
                 </div>
               </div>
             </div>

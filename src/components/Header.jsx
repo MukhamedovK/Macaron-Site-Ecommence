@@ -61,11 +61,12 @@ const Header = () => {
                 <img src="/nav-img/Group 32.png" alt="" />
               </li>
               <li>
-                <select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
+                <Link to="/forwedding"><select name="ПОДАРОЧНЫЕ НАБОРЫ" id="" className="bg-transparent border-none outline-none flex items-center">
+                  
+                  <option value="ПОДАРОЧНЫЕ НАБОРЫ"><Link to="/forwedding">СВАДЕБНЫЕ ПРЕДЛОЖКНИЯ</Link></option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
                   <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
-                  <option value="ПОДАРОЧНЫЕ НАБОРЫ">ПОДАРОЧНЫЕ НАБОРЫ</option>
-                </select>
+                </select></Link>
               </li>
               <li>
                 <p>СОБРАТЬ НАБОР</p>

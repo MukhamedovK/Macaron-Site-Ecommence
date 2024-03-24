@@ -17,17 +17,18 @@ const Trymacaroni = () => {
                 {items.map((item, index) => (
                     <div key={index} className='w-[271px] bg-white rounded-lg border border-gray-300 shadow-lg overflow-hidden'>
                         <img src={item.img} alt={item.title} />
-                        <div className='p-4'>
+                        <div className='p-4 h-[130px]'>
                             <h3 className='text-xl font-semibold mb-2'>{item.title}</h3>
                             <p className='text-sm text-gray-600 mb-8'>{item.description}</p>
-                            <div className='flex justify-between items-center border-t border-gray-300 pt-2'>
-                                <p className='text-[#E7426A] text-lg font-semibold'>{item.price}</p>
-                                <div className='flex items-center'>
+                        </div>
+                            <div className='flex justify-between items-center  border-t border-gray-300 '>
+                                <div className='border-r p-4 w-[45%]'><p className='text-[#E7426A] text-lg font-semibold'>{item.price}</p></div>
+                                <div className='flex items-center p-4'>
                                     <img src="public/home-img/popularsets-img/Group 3 (1).png" alt="Cart Icon" className=' mr-2' />
                                     <Link to="/Basket"><button className='text-sm font-semibold'>В корзину</button></Link>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 ))}
             </div>

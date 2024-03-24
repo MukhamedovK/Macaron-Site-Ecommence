@@ -14,21 +14,22 @@ const PopularSets = () => {
     return (
         <div className='flex flex-col items-center mt-[108px]'>
             <h2 className='text-3xl font-semibold mt-10 mb-6'>Популярные наборы</h2>
-            <div className='flex flex-wrap justify-center gap-8'>
+            <div className='flex flex-wrap justify-center gap-[30px]'>
                 {care.map((item, index) => (
-                    <div key={index} className='w-[370px] bg-white rounded-md border border-gray-300 overflow-hidden shadow-lg flex flex-col'>
-                        <img src={item.img} alt={item.title} className='w-full h-auto' />
-                        <div className='p-4'>
+                    <div key={index} className='w-[370px] bg-white rounded-lg border border-gray-300 shadow-lg overflow-hidden'>
+                        <img src={item.img} alt={item.title} />
+                        <div className='p-4 h-[130px]'>
                             <h3 className='text-xl font-semibold mb-2'>{item.title}</h3>
-                            <p className='text-sm text-gray-600 mb-4'>{item.description}</p>
-                            <div className='flex justify-between items-center border-t border-gray-300 pt-4'>
-                                <p className='text-[#E7426A] text-lg font-semibold'>{item.price}</p>
-                                <div className='flex items-center'>
-                                    <img src="public/home-img/popularsets-img/Group 3 (1).png" alt="Cart Icon" className='mr-2' />
-                                    <button className='text-sm font-semibold'>В корзину</button>
+                            <p className='text-sm text-gray-600 mb-8'>{item.description}</p>
+                        </div>
+                            <div className='flex justify-between items-center  border-t border-gray-300 '>
+                                <div className='border-r p-4 w-[60%]'><p className='text-[#E7426A] text-lg font-semibold'>{item.price}</p></div>
+                                <div className='flex items-center p-4'>
+                                    <img src="public/home-img/popularsets-img/Group 3 (1).png" alt="Cart Icon" className=' mr-2' />
+                                    <Link to="/Basket"><button className='text-sm font-semibold'>В корзину</button></Link>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 ))}
             </div>

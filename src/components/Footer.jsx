@@ -38,8 +38,8 @@ const Footer = () => {
               <ul>
                 <li className='flex flex-col gap-[15px]'>
                   <p className='font-semibold'>КАТАЛОГ</p>
-                  <p className='text-[14px] leading-[17px] '>Каталог десертов</p>
-                  <p className='text-[14px] leading-[17px] '>Готовые наборы</p>
+                  <Link to="/desertcatalog"><p className='text-[14px] leading-[17px] '>Каталог десертов</p></Link>
+                  <Link to="/readysets"><p className='text-[14px] leading-[17px] '>Готовые наборы</p></Link>
                   <p className='text-[14px] leading-[17px] '>Собрать свой набор</p>
                   <p className='text-[14px] leading-[17px] '>Акции</p>
                 </li>
